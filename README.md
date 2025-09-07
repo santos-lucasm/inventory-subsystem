@@ -11,3 +11,9 @@ Install `raylib` and `cmake`
 ## Execute
 
 `./build/inventory-subsystem`
+
+## Domain model
+
+**draft**
+
+![Domain model draft UML class diagram](docs/domain-model-draft.excalidraw.png)
