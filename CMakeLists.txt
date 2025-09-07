@@ -15,7 +15,12 @@ endif()
 
 find_package(raylib 3.0 REQUIRED)
 
+add_subdirectory(src)
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC raylib)
+include_directories(${PROJECT_NAME} PUBLIC include)
+target_link_directories(${PROJECT_NAME} PRIVATE src)
+
+
+target_link_libraries(${PROJECT_NAME} PUBLIC slot_lib general_lib raylib)
 
