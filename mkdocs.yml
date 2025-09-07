@@ -1,0 +1,8 @@
+site_name: Inventory 
+theme:
+  name: material
+plugins:
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/ # Or your local PlantUML server
+nav:
+  - Docs: index.md

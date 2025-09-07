@@ -4,9 +4,22 @@
 
 Install `raylib` and `cmake`
 
+- Install documentation
+```
+pithon3 -m venv venv
+pip install mkdocs mkdocs-material mkdocs_puml
+```
+
 ## Building
 
 `./build.sh`
+
+- Building docs
+
+`mkdocs serve`
+
+- Deploy documentation to github
+`mkdocs gh-pages`
 
 ## Execute
 
